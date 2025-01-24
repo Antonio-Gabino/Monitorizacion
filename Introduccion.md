@@ -1,4 +1,5 @@
-# Monitorización por Línea de Comandos
+# Introducción
+## Monitorización por Línea de Comandos
 
 La monitorización de servidores es el proceso de supervisar y recopilar datos sobre el hardware y software de un sistema, incluyendo componentes como la CPU, memoria, disco, red, aplicaciones web y bases de datos. Este proceso es fundamental para:
 
