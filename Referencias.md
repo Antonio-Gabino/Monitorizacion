@@ -13,3 +13,6 @@ Enlaces a la documentación oficial de los siguientes comandos:
 -	iptraf-ng: https://man7.org/linux/man-pages/man8/iptraf.8.html
 -	netstat: https://man7.org/linux/man-pages/man8/netstat.8.html
 
+# 5. Otras Herramientas y plataformas de monitorización.
+## Bandwidthd.
+Es una herramienta de monitorización de ancho de banda que utiliza un enfoque basado en captura de paquetes para generar informes detallados sobre el uso de la red. Está diseñada para administradores de red que necesitan visualizar y analizar el tráfico de una red en términos de uso de ancho de banda por protocolo, IP o incluso subred.
