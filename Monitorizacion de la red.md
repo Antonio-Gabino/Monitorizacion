@@ -66,3 +66,20 @@ Es una herramienta interactiva de consola para monitorizar el tráfico de red en
 ![Almacenamiento](imagenes/1_iptraf-ng.PNG)
 ![Almacenamiento](imagenes/2_iptraf-ng.PNG)
 ![Almacenamiento](imagenes/3_iptraf-ng.PNG)
+
+## 3.4	 Comentario del resultado del comando.
+-	iptraf-ng: Esto abrirá un menú interactivo donde podremos elegir las distintas opciones que aparecen.
+-	IP Traffic Monitor: Monitorea el tráfico IP detallado en tiempo real.
+-	General Interface Statistics: Opción (enp0s3) Estadísticas generales de las interfaces de red.
+  
+## Comando netstat.
+## 3.1   Explicación del comando.
+Es una herramienta de línea de comandos ampliamente utilizada para supervisar conexiones de red, estadísticas, sockets y puertos abiertos en un sistema. Es especialmente útil para tareas de administración y diagnóstico de redes. Aunque el comando netstat ha sido reemplazado en algunos sistemas por herramientas más modernas como ss, sigue siendo muy utilizado.
+## 3.2	 Opciones comunes del comando.
+-	**-a**: Muestra todas las conexiones activas y los puertos en escucha.
+-	**-s**: Proporciona un desglose de las estadísticas por protocolos (TCP, UDP, ICMP, etc.).
+-	**-l**: Muestra los puertos en escucha.
+-	**-tp**: Lista las conexiones junto con los procesos o aplicaciones que las están utilizando.
+-	**-n**: Evita resolver nombres de host y muestra las direcciones IP directamente.
+-	**-r**: Muestra la tabla de enrutamiento del sistema.
+## 3.3	 Capturas de pantalla ejecutando las opciones.
