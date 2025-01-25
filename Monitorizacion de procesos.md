@@ -76,7 +76,7 @@ El comando top en Linux ofrece varias opciones útiles para monitorear y gestion
 -	**top -b**: Ejecuta top en modo batch, útil para redirigir la salida a un archivo.
 -	**top -c**: Nos muestra la línea de comando completa de cada proceso en lugar del nombre del comando.
 -	**top -d 5**: Establece un intervalo de actualización de la pantalla cada 5 segundos. Por defecto, es 3 segundos.
--	*top -n 3**: Nos muestra un número específico de actualizaciones y luego sale.
+-	**top -n 3**: Nos muestra un número específico de actualizaciones y luego sale.
 -	**top -u antonio**: Nos muestra solo los procesos del usuario especificado.
 -	**top -p 3314**: Muestra solo el proceso con el ID de proceso (PID) especificado. 
 Las opciones y comandos interactivos de top nos permiten personalizar y controlar la visualización de los procesos en tiempo real. Estas herramientas son útiles para adaptar la información mostrada a nuestras necesidades, como ordenar por uso de CPU, memoria o filtrar por usuario. Además, dentro de la interfaz de top, podemos interactuar mediante comandos específicos para gestionar la forma en que se presentan los datos.
@@ -86,4 +86,15 @@ Las opciones y comandos interactivos de top nos permiten personalizar y controla
 -	**q**: Sale de top.
 -	**s**: Cambia el intervalo de actualización.
 ## 1.3	Capturas de pantalla ejecutando las opciones.
+![Procesos](imagenes/1_ps.PNG)
+![Procesos](imagenes/2_ps.PNG)
+![Procesos](imagenes/3_ps.PNG)
+![Procesos](imagenes/4_ps.PNG)
+![Procesos](imagenes/5_ps.PNG)
+![Procesos](imagenes/6_ps.PNG)
+![Procesos](imagenes/7_ps.PNG)
+![Procesos](imagenes/8_ps.PNG)
+![Procesos](imagenes/9_ps.PNG)
+![Procesos](imagenes/10_ps.PNG)
+
 
