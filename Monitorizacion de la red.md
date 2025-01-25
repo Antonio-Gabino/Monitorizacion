@@ -83,3 +83,7 @@ Es una herramienta de línea de comandos ampliamente utilizada para supervisar c
 -	**-n**: Evita resolver nombres de host y muestra las direcciones IP directamente.
 -	**-r**: Muestra la tabla de enrutamiento del sistema.
 ## 3.3	 Capturas de pantalla ejecutando las opciones.
+![Almacenamiento](imagenes/1_netstat.PNG)
+![Almacenamiento](imagenes/2_netstat.PNG)
+![Almacenamiento](imagenes/3_netstat.PNG)
+
