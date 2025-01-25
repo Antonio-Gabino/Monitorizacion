@@ -207,5 +207,5 @@ Las opciones y **comandos interactivos** de top.
 -	**atop -u**: Se enfoca específicamente en cómo los procesos y el sistema están utilizando los recursos de procesamiento, mostrando el porcentaje de uso de la CPU.
   
 Las opciones y **comandos interactivos** de top.
--	d: Cambia la visualización de los detalles del disco.
--	m: Cambia la visualización de los detalles de la memoria.
+-	**d**: Cambia la visualización de los detalles del disco.
+-	**m**: Cambia la visualización de los detalles de la memoria.
