@@ -51,3 +51,37 @@ Es una herramienta útil para monitorear y gestionar el almacenamiento en discos
 -	**--total**: Muestra un total acumulado de todas las entradas listadas.
 -	**--output**: Permite personalizar las columnas que se muestran en la salida.
 ## 2.6	Capturas de pantalla ejecutando las opciones.
+![Almacenamiento](imagenes/1_df.PNG)
+![Almacenamiento](imagenes/2_df.PNG)
+![Almacenamiento](imagenes/3_df.PNG)
+![Almacenamiento](imagenes/4_df.PNG)
+
+## 2.7	Comentario del resultado del comando.
+-	**df**: Muestra información sistema de archivos montados, tipo, tamaño, etc.
+-	**df -h**: Muestra los valores en un formato legible.
+-	**df -i**: Muestra el uso de nodos-i en lugar del espacio en disco.
+-	**df -T**: Muestra el tipo del sistema de archivos (ext4, tmpfs, etc.)
+  
+Descripción de las columnas:
+-	__S. ficheros__: Nombre del dispositivo o sistema de archivos.
+-	__Tipo__: Muestra el nombre del sistema de archivo.
+-	__Tamaño__: Tamaño total del sistema de archivos.
+-	__Usados__: Espacio usado actualmente.
+-	__Disponibles__: Espacio disponible para nuevos datos.
+-	__Uso%__: Porcentaje del sistema de archivos en uso.
+-	__Montado en__: Punto de montaje donde está accesible el sistema de archivos.
+## Comando du.
+## 2.1	Explicación del comando.
+El comando du en Linux se utiliza para estimar y mostrar el uso de espacio en disco de archivos y directorios. Es útil para identificar qué elementos están ocupando más espacio en el sistema.
+## 2.2	Opciones comunes del comando.
+-	**du**: Calcula el espacio que ocupan los directorios y archivos concretos.
+-	**-h**: Muestra los tamaños en un formato legible para humanos (por ejemplo, 1K, 234M, 2G).
+-	**-a**: Muestra el uso de espacio de archivos y directorios (por defecto solo muestra los directorios).
+-	**-s**: Muestra solo el total de espacio utilizado por cada argumento proporcionado.
+-	**-c**: Incluye un total acumulado al final de la salida.
+-	**-d N**: Limita la profundidad de la inspección a N niveles de subdirectorios.
+-	**--max-depth=N**: Igual que -d, pero con una sintaxis más explícita.
+-	**-x**: Solo mide espacio dentro del mismo sistema de archivos (ignora otros sistemas montados).
+-	**--time**: Muestra la última fecha de modificación junto con el tamaño.
+## 2.3	Capturas de pantalla ejecutando las opciones.
+![Almacenamiento](imagenes/1_du.PNG)
