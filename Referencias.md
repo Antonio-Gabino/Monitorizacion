@@ -36,5 +36,10 @@ Enlace a la página oficial: https://www.zabbix.com/
 
 ## Prometheus.
 Es una herramienta de monitoreo y alerta de código abierto orientada a métricas y diseñada para manejar entornos altamente dinámicos, como los sistemas en la nube. Es conocido por su modelo de recopilación basado en pull y su potente lenguaje de consulta, PromQL.
-![Procesos](imagenes/Zabbix.PNG)
+![Procesos](imagenes/prometheus.png)
 Enlace a la página oficial: https://prometheus.io/
+
+## Grafana.
+Es una poderosa herramienta de visualización y análisis de datos que permite crear dashboards interactivos y personalizados. Se utiliza ampliamente para monitorear métricas de sistemas, redes y aplicaciones, y es compatible con diversas fuentes de datos como Prometheus, Elasticsearch, MySQL, y muchas más.
+![Procesos](imagenes/grafana.png)
+Enlace a la página oficial: https://grafana.com/
