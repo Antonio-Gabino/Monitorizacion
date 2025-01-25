@@ -43,3 +43,6 @@ Además, también presenta los datos de manera visual, facilitando el análisis 
 -	**-v**: Muestra la versión de la herramienta.
 -	**-h**: Muestra la ayuda con una lista de todas las opciones disponibles.
 ## 3.7	Capturas de pantalla ejecutando las opciones.
+![Almacenamiento](imagenes/1_tcptrack.PNG)
+![Almacenamiento](imagenes/2_tcptrack.PNG)
+
