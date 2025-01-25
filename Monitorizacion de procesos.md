@@ -48,24 +48,20 @@ Nos muestra el identificador del proceso en ejecución. El PID 1 está reservado
 - **ps -C nano y ps -C nano 3836 (número PID):**  
   Muestra todo lo anterior y además indica que el proceso está en primer plano, es decir, interactúa directamente con el terminal.  
 
-- **ps -f**:  
-  Además de algunos de los datos anteriores, muestra:  
+- **ps -f**: Además de algunos de los datos anteriores, muestra:  
   - El ID del usuario/a.  
   - El ID del proceso y del proceso padre (PPID).  
   - La proporción de tiempo que el proceso ha estado activo en la CPU. Un valor más alto sugiere que el proceso ha consumido más recursos de CPU.  
 
-- **ps -l**:  
-  Además de lo anterior, incluye:  
+- **ps -l**: Además de lo anterior, incluye:  
   - **PRI (Priority - Prioridad):** Prioridad del proceso para ser programado en la CPU.  
   - **NI (Nice Value - Valor de Amabilidad):** Representa la prioridad o "amabilidad" del proceso hacia otros.  
   - **ADDR (Address - Dirección de Memoria):** Indica la dirección en memoria donde se carga el proceso.  
   - **WCHAN (Waiting Channel - Canal de Espera):** Muestra el nombre del kernel o función en la que el proceso está esperando.  
 
-- **ps -o**:  
-  Nos permite especificar el formato de salida de la información.  
+- **ps -o**: Nos permite especificar el formato de salida de la información.  
 
-- **ps -o vsz**:  
-  Muestra el tamaño total de la memoria virtual utilizada por el proceso.  
+- **ps -o vsz**: Muestra el tamaño total de la memoria virtual utilizada por el proceso.  
 
 - **ps -p 3836**:  
   Muestra información sobre un proceso específico por su ID de proceso (PID).  
