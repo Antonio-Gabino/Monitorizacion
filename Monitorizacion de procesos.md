@@ -96,5 +96,36 @@ Las opciones y comandos interactivos de top nos permiten personalizar y controla
 ![Procesos](imagenes/8_top.PNG)
 ![Procesos](imagenes/9_top.PNG)
 
+## 1.8	Comentario del resultado del comando.
+-	**top**: En la cabecera superior, podemos ver la hora de la conexión, el número de usuarios conectados al sistema (1 **user**), carga media (**load average**) valores que representan la carga media del sistema en los últimos 1,5 y 15 minutos, las tareas con su número de procesos totales, en ejecución (**running**), suspendidos (**sleeping**) y detenidos (**stopped**), muertos (**zombie**), estado de la CPU en porcentaje de uso divididos en: 
+-	Usuario (**us**): Procesos del usuario.
+-	Sistema (**sy**): Procesos del sistema (kernel).
+-	Idle (**id**): Tiempo que la CPU está inactiva.
+-	Otros: Tiempo dedicado a interrupciones, espera de E/S, etc.
+Memoria (**Mem**): Memoria total, utilizada, libre y en caché, swap memoria para el espacio de intercambio.
+	En la parte inferior, tabla de procesos podemos ver:
+-	**PID**: Identificador del proceso.
+-	**USER**: Usuario/a que ejecuta el proceso.
+-	**PR**: Prioridad del proceso.
+-	**NI**: Valor de nice (afecta la prioridad del proceso).
+-	**VIRT**: Memoria virtual utilizada.
+-	**RES**: Memoria física utilizada.
+-	**SHR**: Memoria compartida.
+-	**S**: Estado del proceso (ejecución, suspensión, etc.).
+-	**%CPU**: Porcentaje de uso de la CPU.
+-	**%MEM**: Porcentaje de uso de la memoria.
+-	**TIME+**: Tiempo total de CPU consumido.
+-	**COMMAND**: Nombre o comando asociado al proceso.
+-	**top -b**: Nos permite salida en texto plano de la información sobre los procesos y el sistema imprimiéndola directamente en la terminal, ideal para redirigirla a un archivo, script o para utilizarla en análisis automatizados.
+top -b > salida.txt
+-	**top -c**: Nos mostrará directamente los comandos completos de los procesos.
+-	**top -d 5**: Ajustamos el intervalo de actualización de la salida de top a 5 segundos, con la opción -d personalizamos el tiempo.
+-	**top -n 3**: Va a limita la cantidad de actualizaciones o iteraciones que realiza top antes de salir.
+-	**top -u antonio**: Nos muestra solo los procesos del usuario.
+-	**top -p 3314**: Muestra solo el proceso con el ID de proceso (PID) especificado. 
+Las opciones y **comandos interactivos** de top.
+-	**h**: Nos muestra la ayuda con distintas opciones para elegir.
+-	**k**: Mata un proceso especificando su PID (detiene).
+
 
 
