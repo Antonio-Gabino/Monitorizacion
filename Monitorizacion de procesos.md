@@ -1,4 +1,4 @@
-# Monitorización de procesos
+# 1. Monitorización de procesos
 ![Procesos](imagenes/Imagen_procesos.PNG)
 ## Comando ps 
 ## 1.1 Explicación del comando.  
