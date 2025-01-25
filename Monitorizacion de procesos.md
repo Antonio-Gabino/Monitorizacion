@@ -98,34 +98,56 @@ Las opciones y comandos interactivos de top nos permiten personalizar y controla
 
 ## 1.8	Comentario del resultado del comando.
 -	**top**: En la cabecera superior, podemos ver la hora de la conexión, el número de usuarios conectados al sistema (1 **user**), carga media (**load average**) valores que representan la carga media del sistema en los últimos 1,5 y 15 minutos, las tareas con su número de procesos totales, en ejecución (**running**), suspendidos (**sleeping**) y detenidos (**stopped**), muertos (**zombie**), estado de la CPU en porcentaje de uso divididos en: 
--	Usuario (**us**): Procesos del usuario.
--	Sistema (**sy**): Procesos del sistema (kernel).
--	Idle (**id**): Tiempo que la CPU está inactiva.
--	Otros: Tiempo dedicado a interrupciones, espera de E/S, etc.
+- Usuario (**us**): Procesos del usuario.
+- Sistema (**sy**): Procesos del sistema (kernel).
+- Idle (**id**): Tiempo que la CPU está inactiva.
+- Otros: Tiempo dedicado a interrupciones, espera de E/S, etc.
 Memoria (**Mem**): Memoria total, utilizada, libre y en caché, swap memoria para el espacio de intercambio.
-	En la parte inferior, tabla de procesos podemos ver:
--	**PID**: Identificador del proceso.
--	**USER**: Usuario/a que ejecuta el proceso.
--	**PR**: Prioridad del proceso.
--	**NI**: Valor de nice (afecta la prioridad del proceso).
--	**VIRT**: Memoria virtual utilizada.
--	**RES**: Memoria física utilizada.
--	**SHR**: Memoria compartida.
--	**S**: Estado del proceso (ejecución, suspensión, etc.).
--	**%CPU**: Porcentaje de uso de la CPU.
--	**%MEM**: Porcentaje de uso de la memoria.
--	**TIME+**: Tiempo total de CPU consumido.
--	**COMMAND**: Nombre o comando asociado al proceso.
--	**top -b**: Nos permite salida en texto plano de la información sobre los procesos y el sistema imprimiéndola directamente en la terminal, ideal para redirigirla a un archivo, script o para utilizarla en análisis automatizados.
+En la **parte inferior**, tabla de procesos podemos ver:
+- **PID**: Identificador del proceso.
+- **USER**: Usuario/a que ejecuta el proceso.
+- **PR**: Prioridad del proceso.
+- **NI**: Valor de nice (afecta la prioridad del proceso).
+- **VIRT**: Memoria virtual utilizada.
+- **RES**: Memoria física utilizada.
+- **SHR**: Memoria compartida.
+- **S**: Estado del proceso (ejecución, suspensión, etc.).
+- **%CPU**: Porcentaje de uso de la CPU.
+- **%MEM**: Porcentaje de uso de la memoria.
+- **TIME+**: Tiempo total de CPU consumido.
+- **COMMAND**: Nombre o comando asociado al proceso.
+- **top -b**: Nos permite salida en texto plano de la información sobre los procesos y el sistema imprimiéndola directamente en la terminal, ideal para redirigirla a un archivo, script o para utilizarla en análisis automatizados.
 top -b > salida.txt
--	**top -c**: Nos mostrará directamente los comandos completos de los procesos.
--	**top -d 5**: Ajustamos el intervalo de actualización de la salida de top a 5 segundos, con la opción -d personalizamos el tiempo.
--	**top -n 3**: Va a limita la cantidad de actualizaciones o iteraciones que realiza top antes de salir.
--	**top -u antonio**: Nos muestra solo los procesos del usuario.
--	**top -p 3314**: Muestra solo el proceso con el ID de proceso (PID) especificado. 
+- **top -c**: Nos mostrará directamente los comandos completos de los procesos.
+- **top -d 5**: Ajustamos el intervalo de actualización de la salida de top a 5 segundos, con la opción -d personalizamos el tiempo.
+- **top -n 3**: Va a limita la cantidad de actualizaciones o iteraciones que realiza top antes de salir.
+- **top -u antonio**: Nos muestra solo los procesos del usuario.
+- **top -p 3314**: Muestra solo el proceso con el ID de proceso (PID) especificado. 
 Las opciones y **comandos interactivos** de top.
--	**h**: Nos muestra la ayuda con distintas opciones para elegir.
--	**k**: Mata un proceso especificando su PID (detiene).
+- **h**: Nos muestra la ayuda con distintas opciones para elegir.
+- **k**: Mata un proceso especificando su PID (detiene).
 
+## Comando htop.
+## 1.9	Explicación del comando.
+Es una versión mejorada de top, con una interfaz interactiva, más amigable y colorida. Ofrece funcionalidades adicionales que facilitan la monitorización del sistema y permiten una visualización más intuitiva de los procesos en ejecución.
+
+**Sintaxis básica**: htop [opciones]
+
+## 1.10	Opciones comunes del comando.
+- **htop**: Es una versión mejorada y más amigable de top, con una interfaz interactiva y funcionalidad adicional.
+- **htop -d 3**: Establece el intervalo de actualización en milisegundos.
+- **htop -u antonio**: Muestra solo los procesos del usuario especificado.
+- **htop -p 3314,3315**: Muestra solo los procesos con los IDs de proceso (PIDs) especificados.
+- **htop -t y --tree**: Muestra los procesos y subprocesos en una vista de árbol.
+Las opciones y **comandos interactivos** de top.
+•	**F1**: Muestra la ayuda.
+•	**F2**: Abre el menú de configuración.
+•	**F3**: Busca un proceso por nombre.
+•	**F4**: Filtra los procesos por nombre.
+•	**F5**: Cambia a la vista de árbol.
+•	**F6**: Cambia el criterio de ordenación.
+•	**F9**: Mata un proceso especificando su PID.
+•	**F10**: Sale de htop.
+## 1.11	Capturas de pantalla ejecutando las opciones.
 
 
