@@ -1,4 +1,4 @@
-# Monitorización del almacenamiento.
+# 2. Monitorización del almacenamiento.
 ![Almacenamiento](imagenes/Imagen_almacenamiento.jpeg)
 ## Comando free.
 ## 2.1	Explicación del comando.
