@@ -87,3 +87,8 @@ Es una herramienta de línea de comandos ampliamente utilizada para supervisar c
 ![Almacenamiento](imagenes/2_netstat.PNG)
 ![Almacenamiento](imagenes/3_netstat.PNG)
 
+## 3.16	 Comentario del resultado del comando.
+-	**netstat -a**: Muestra los protocolos, direcciones locales y los puertos en escucha.
+-	**netstat -s**: Nos proporciona un desglose de las estadísticas por protocolos (TCP, UDP, ICMP, etc.)
+-	**netstat -l**: Muestra los protocolos, direcciones locales y el estado de los puertos en escucha.
+-	**Netstat -r**: Nos muestra las ip, puerta de enlace, máscara, interfaz, etc.
