@@ -1,4 +1,5 @@
 # Monitorización de procesos
+![Procesos](imagenes/Imagen_procesos.PNG)
 ## Comando ps 
 ## 1.1 Explicación del comando.  
 El comando **ps** es una herramienta fundamental que proporciona una instantánea de los procesos en ejecución. Es útil para obtener información específica sobre los procesos en un sistema Linux.  
