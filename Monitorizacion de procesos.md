@@ -4,7 +4,7 @@
 El comando **ps** es una herramienta fundamental que proporciona una instantánea de los procesos en ejecución. Es útil para obtener información específica sobre los procesos en un sistema Linux.  
 
 ## 1.2 Opciones comunes del comando.  
-El comando `ps` en Linux tiene muchas opciones útiles para mostrar información sobre los procesos en ejecución:  
+El comando **ps** en Linux tiene muchas opciones útiles para mostrar información sobre los procesos en ejecución:  
 
 - **ps**: Muestra una lista de procesos.  
 - **ps a**: Muestra los procesos de todos los usuarios/as.  
