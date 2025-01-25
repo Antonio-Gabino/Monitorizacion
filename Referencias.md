@@ -22,3 +22,10 @@ Enlace a la página oficial: https://bandwidthd.sourceforge.net/
 
 ## Nagios.
 Es una potente herramienta de monitoreo de infraestructura utilizada para supervisar sistemas, redes y aplicaciones. Es ampliamente reconocida en el ámbito de TI por su capacidad de identificar y notificar problemas antes de que afecten a los usuarios finales o procesos empresariales.
+<div style="text-align: center;">
+  <img src="imagenes/Nagios.PNG" alt="Texto alternativo" style="width:50%;"/>
+</div>
+Enlace a la página oficial: https://www.nagios.org/
+
+## Zabbix.
+Es una plataforma de monitoreo de código abierto diseñada para supervisar el desempeño de infraestructuras de TI, como redes, servidores, aplicaciones y servicios. Es una herramienta popular debido a su capacidad para manejar grandes entornos empresariales, escalabilidad y funcionalidades avanzadas.
