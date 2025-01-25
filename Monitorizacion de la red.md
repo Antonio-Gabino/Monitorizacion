@@ -63,3 +63,6 @@ Es una herramienta interactiva de consola para monitorizar el tráfico de red en
 -	__Statistical Breakdown by Port__: Tráfico dividido por puerto.
 -	__Configure...__: Opciones de configuración de la herramienta.
 ## 3.3	 Capturas de pantalla ejecutando las opciones.
+![Almacenamiento](imagenes/1_iptraf-ng.PNG)
+![Almacenamiento](imagenes/2_iptraf-ng.PNG)
+![Almacenamiento](imagenes/3_iptraf-ng.PNG)
