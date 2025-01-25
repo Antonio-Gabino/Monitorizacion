@@ -86,15 +86,15 @@ Las opciones y comandos interactivos de top nos permiten personalizar y controla
 -	**q**: Sale de top.
 -	**s**: Cambia el intervalo de actualización.
 ## 1.3	Capturas de pantalla ejecutando las opciones.
-![Procesos](imagenes/1_ps.PNG)
-![Procesos](imagenes/2_ps.PNG)
-![Procesos](imagenes/3_ps.PNG)
-![Procesos](imagenes/4_ps.PNG)
-![Procesos](imagenes/5_ps.PNG)
-![Procesos](imagenes/6_ps.PNG)
-![Procesos](imagenes/7_ps.PNG)
-![Procesos](imagenes/8_ps.PNG)
-![Procesos](imagenes/9_ps.PNG)
-![Procesos](imagenes/10_ps.PNG)
+![Procesos](imagenes/1_top.PNG)
+![Procesos](imagenes/2_top.PNG)
+![Procesos](imagenes/3_top.PNG)
+![Procesos](imagenes/4_top.PNG)
+![Procesos](imagenes/5_top.PNG)
+![Procesos](imagenes/6_top.PNG)
+![Procesos](imagenes/7_top.PNG)
+![Procesos](imagenes/8_top.PNG)
+![Procesos](imagenes/9_top.PNG)
+
 
 
