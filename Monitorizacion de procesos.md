@@ -8,7 +8,8 @@ El comando **ps** en Linux tiene muchas opciones útiles para mostrar informaci�
 
 - **ps**: Muestra una lista de procesos.  
 - **ps a**: Muestra los procesos de todos los usuarios/as.  
-- **ps -C nano y ps -C nano 3836** (número PID): Filtra los procesos que coinciden con el nombre exacto del comando `nano` y muestra el campo de identificador de proceso (PID).  
+- **ps -C nano y ps -C nano 3836** (número PID): Filtra los procesos que coinciden con el nombre exacto del comando `nano` y muestra el 
+    campo de identificador de proceso (PID).  
 - **ps -f**: Muestra una lista completa con información detallada.  
 - **ps -l**: Muestra una lista larga de procesos con información detallada.  
 - **ps -o vsz**: Muestra el tamaño total de la memoria virtual utilizada por un proceso, expresado en kilobytes (Virtual Memory Size).  
