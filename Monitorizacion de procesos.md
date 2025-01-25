@@ -139,15 +139,17 @@ Es una versión mejorada de top, con una interfaz interactiva, más amigable y c
 - **htop -u antonio**: Muestra solo los procesos del usuario especificado.
 - **htop -p 3314,3315**: Muestra solo los procesos con los IDs de proceso (PIDs) especificados.
 - **htop -t y --tree**: Muestra los procesos y subprocesos en una vista de árbol.
+  
 Las opciones y **comandos interactivos** de top.
-•	**F1**: Muestra la ayuda.
-•	**F2**: Abre el menú de configuración.
-•	**F3**: Busca un proceso por nombre.
-•	**F4**: Filtra los procesos por nombre.
-•	**F5**: Cambia a la vista de árbol.
-•	**F6**: Cambia el criterio de ordenación.
-•	**F9**: Mata un proceso especificando su PID.
-•	**F10**: Sale de htop.
+- **F1**: Muestra la ayuda.
+-	**F2**: Abre el menú de configuración.
+-	**F3**: Busca un proceso por nombre.
+-	**F4**: Filtra los procesos por nombre.
+-	**F5**: Cambia a la vista de árbol.
+-	**F6**: Cambia el criterio de ordenación.
+-	**F9**: Mata un proceso especificando su PID.
+-	**F10**: Sale de htop.
+  
 ## 1.11	Capturas de pantalla ejecutando las opciones.
 
 ![Procesos](imagenes/1_htop.PNG)
@@ -159,5 +161,16 @@ Las opciones y **comandos interactivos** de top.
 ![Procesos](imagenes/7_htop.PNG)
 ![Procesos](imagenes/8_htop.PNG)
 
+## 1.12	Comentario del resultado del comando.
+-	**htop**: En la cabecera superior, podemos ver la hora de la conexión, carga media (load average) valores que representan la carga media del sistema en los últimos 1,5 y 15 minutos, las tareas con su número de procesos totales, en ejecución (running), número de núcleos de la CPU, memoria (Mem), memoria total, utilizada, libre y en caché, swap memoria para el espacio de intercambio.
+En la parte inferior, tabla de procesos vemos los mismos procesos que en el comando top.
+-	**htop -d 3**: La Información general del sistema (cabecera y parte inferior), es igual que la del comando htop, la diferencia está en la información se actualiza más rápidamente.
+-	**htop -u antonio**: Muestra la misma información que el comando htop, pero del usuario especificado.
+-	**htop -p 3314,3315**: Muestra la misma información del comando htop, mostrando sólo los procesos con los IDs de proceso (PIDs) especificados.
+-	**htop -t y --tree**: Muestra los procesos y subprocesos en una vista de árbol, mostrando los mismos datos que el comando htop.
+
+Las opciones y **comandos interactivos** de htop.
+-	**F1 (help)**: Muestra la ayuda del comando una vez dentro, pulsando la tecla F1.
+-	**F3 (search)**: Abre un campo para que busques un proceso por nombre, o cualquier otro dato.
 
 
