@@ -19,3 +19,6 @@ Es una herramienta de monitorización de ancho de banda que utiliza un enfoque b
 ![Procesos](imagenes/Bandwidth.PNG)
 
 Enlace a la página oficial: https://bandwidthd.sourceforge.net/
+
+## Nagios.
+Es una potente herramienta de monitoreo de infraestructura utilizada para supervisar sistemas, redes y aplicaciones. Es ampliamente reconocida en el ámbito de TI por su capacidad de identificar y notificar problemas antes de que afecten a los usuarios finales o procesos empresariales.
