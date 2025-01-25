@@ -19,5 +19,13 @@ El comando `ps` en Linux tiene muchas opciones útiles para mostrar información
 - **ps x**: Muestra los procesos sin terminal.  
 
 ## 1.3 Capturas de pantalla ejecutando las opciones  
-![Procesos](imagenes/1_ps.png)
-![Procesos](imagenes/2_ps.png)
+![Procesos](imagenes/1_ps.PNG)
+![Procesos](imagenes/2_ps.PNG)
+![Procesos](imagenes/3_ps.PNG)
+![Procesos](imagenes/4_ps.PNG)
+![Procesos](imagenes/5_ps.PNG)
+![Procesos](imagenes/6_ps.PNG)
+![Procesos](imagenes/7_ps.PNG)
+![Procesos](imagenes/8_ps.PNG)
+![Procesos](imagenes/9_ps.PNG)
+![Procesos](imagenes/10_ps.PNG)
