@@ -32,8 +32,7 @@ Es una herramienta de monitorización en tiempo real diseñada para observar con
 -	Cantidad de datos transmitidos.
 Además, también presenta los datos de manera visual, facilitando el análisis en vivo del tráfico de red, siendo útil para supervisar la actividad de red en detalle.
 
-**Sintaxis básica**:
-sudo tcptrack -i enp0s3
+**Sintaxis básica**: sudo tcptrack -i enp0s3
 ## 3.2	Opciones comunes del comando.
 -	**-i enp0s3**: Especifica la interfaz de red a monitorear, como eth0 o wlan0.
 -	**-d**: Activa el modo de depuración, proporcionando información adicional para diagnósticos.
