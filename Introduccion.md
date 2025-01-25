@@ -1,4 +1,4 @@
-![Introduccion](Monitorizacion/imagenes/Introduccion.jpg)
+![Introduccion](imagenes/Introduccion.jpg)
 # Introducción
 ## Monitorización por Línea de Comandos
 
