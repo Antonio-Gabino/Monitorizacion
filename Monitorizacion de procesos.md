@@ -150,4 +150,14 @@ Las opciones y **comandos interactivos** de top.
 •	**F10**: Sale de htop.
 ## 1.11	Capturas de pantalla ejecutando las opciones.
 
+![Procesos](imagenes/1_htop.PNG)
+![Procesos](imagenes/2_htop.PNG)
+![Procesos](imagenes/3_htop.PNG)
+![Procesos](imagenes/4_htop.PNG)
+![Procesos](imagenes/5_htop.PNG)
+![Procesos](imagenes/6_htop.PNG)
+![Procesos](imagenes/7_htop.PNG)
+![Procesos](imagenes/8_htop.PNG)
+
+
 
