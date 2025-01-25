@@ -69,9 +69,9 @@ Es una herramienta interactiva de consola para monitorizar el tráfico de red en
 ![Red](imagenes/3_iptraf-ng.PNG)
 
 ## 3.4	 Comentario del resultado del comando.
--	iptraf-ng: Esto abrirá un menú interactivo donde podremos elegir las distintas opciones que aparecen.
--	IP Traffic Monitor: Monitorea el tráfico IP detallado en tiempo real.
--	General Interface Statistics: Opción (enp0s3) Estadísticas generales de las interfaces de red.
+-	**iptraf-ng**: Esto abrirá un menú interactivo donde podremos elegir las distintas opciones que aparecen.
+-	**IP Traffic Monitor**: Monitorea el tráfico IP detallado en tiempo real.
+-	**General Interface Statistics**: Opción (enp0s3) Estadísticas generales de las interfaces de red.
   
 ## Comando netstat.
 ## 3.1   Explicación del comando.
