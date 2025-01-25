@@ -173,4 +173,21 @@ Las opciones y **comandos interactivos** de htop.
 -	**F1 (help)**: Muestra la ayuda del comando una vez dentro, pulsando la tecla F1.
 -	**F3 (search)**: Abre un campo para que busques un proceso por nombre, o cualquier otro dato.
 
+## Comando atop.
+## 1.13	Explicación del comando.
+Es una herramienta avanzada para monitorear el rendimiento del sistema en Linux. A diferencia de top y htop, atop ofrece una visión más detallada y persistente del uso de recursos, incluyendo CPU, memoria, disco y red. Además, permite registrar datos para su análisis posterior, lo que lo convierte en una herramienta ideal para diagnósticos y monitoreo a largo plazo.
+## 1.14	Opciones comunes del comando.
+-	**atop -a**: Muestra todos los procesos, incluyendo aquellos que han terminado durante el intervalo de muestreo.
+-	**atop -d**: Muestra información detallada sobre el uso del disco.
+-	**atop -m**: Muestra información detallada sobre el uso de la memoria.
+-	**atop -n**: Muestra información detallada sobre el uso de la red.
+-	**atop -u**: Muestra información detallada sobre el uso de la CPU.
+Las opciones y **comandos interactivos** de top.
+-	**t**: Cambia el intervalo de actualización.
+-	**c**: Cambia la visualización de los comandos completos.
+-	**d**: Cambia la visualización de los detalles del disco.
+-	**m**: Cambia la visualización de los detalles de la memoria.
+-	**n**: Cambia la visualización de los detalles de la red.
+-	**q**: Sale de atop.
+## 1.15	Capturas de pantalla ejecutando las opciones.
 
