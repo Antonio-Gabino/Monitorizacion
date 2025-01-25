@@ -36,12 +36,12 @@ Descripción de las columnas:
 -	__buf/cache__: Memoria usada por buffers y cachés del sistema.
 -	__disponible__: Memoria realmente disponible para ser usada por aplicaciones.
 ## Comando df.
-## 2.4	Explicación del comando.
+## 2.1	Explicación del comando.
 El comando df en Linux muestra información sobre el uso y la disponibilidad de espacio en los sistemas de archivos montados. Permite conocer:
 Espacio de disco utilizado.
 Espacio de disco libre.
 Es una herramienta útil para monitorear y gestionar el almacenamiento en discos y particiones.
-## 2.5	Opciones comunes del comando.
+## 2.2	Opciones comunes del comando.
 -	**df**: Muestra el espacio utilizado y disponible en los sistemas de archivos montados.
 -	**-h**: Muestra los valores en un formato legible para humanos (por ejemplo, 1G en lugar de 1073741824).
 -	**-k**: Muestra los tamaños en kilobytes (por defecto).
@@ -50,13 +50,13 @@ Es una herramienta útil para monitorear y gestionar el almacenamiento en discos
 -	**-i**: Muestra el uso de inodos en lugar del espacio en disco.
 -	**--total**: Muestra un total acumulado de todas las entradas listadas.
 -	**--output**: Permite personalizar las columnas que se muestran en la salida.
-## 2.6	Capturas de pantalla ejecutando las opciones.
+## 2.3	Capturas de pantalla ejecutando las opciones.
 ![Almacenamiento](imagenes/1_df.PNG)
 ![Almacenamiento](imagenes/2_df.PNG)
 ![Almacenamiento](imagenes/3_df.PNG)
 ![Almacenamiento](imagenes/4_df.PNG)
 
-## 2.7	Comentario del resultado del comando.
+## 2.4	Comentario del resultado del comando.
 -	**df**: Muestra información sistema de archivos montados, tipo, tamaño, etc.
 -	**df -h**: Muestra los valores en un formato legible.
 -	**df -i**: Muestra el uso de nodos-i en lugar del espacio en disco.
