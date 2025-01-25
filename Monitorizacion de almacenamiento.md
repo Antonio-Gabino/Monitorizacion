@@ -27,7 +27,6 @@ Es una herramienta útil para monitorear el estado de la memoria y diagnosticar 
 -	**free -b**: Muestra información de la memoria en bytes.
 -	**free -b**: Muestra la memoria en gigabytes.
 -	**free -t**: Muestra una fila adicional con el total de memoria (RAM + swap).
-  
 Descripción de las columnas:
 -	__total__: Memoria total del sistema.
 -	__usado__: Memoria en uso.
@@ -35,6 +34,7 @@ Descripción de las columnas:
 -	__compartido__: Memoria compartida entre procesos.
 -	__buf/cache__: Memoria usada por buffers y cachés del sistema.
 -	__disponible__: Memoria realmente disponible para ser usada por aplicaciones.
+  
 ## Comando df.
 ## 2.1	Explicación del comando.
 El comando df en Linux muestra información sobre el uso y la disponibilidad de espacio en los sistemas de archivos montados. Permite conocer:
@@ -61,7 +61,6 @@ Es una herramienta útil para monitorear y gestionar el almacenamiento en discos
 -	**df -h**: Muestra los valores en un formato legible.
 -	**df -i**: Muestra el uso de nodos-i en lugar del espacio en disco.
 -	**df -T**: Muestra el tipo del sistema de archivos (ext4, tmpfs, etc.)
-  
 Descripción de las columnas:
 -	__S. ficheros__: Nombre del dispositivo o sistema de archivos.
 -	__Tipo__: Muestra el nombre del sistema de archivo.
@@ -70,6 +69,7 @@ Descripción de las columnas:
 -	__Disponibles__: Espacio disponible para nuevos datos.
 -	__Uso%__: Porcentaje del sistema de archivos en uso.
 -	__Montado en__: Punto de montaje donde está accesible el sistema de archivos.
+  
 ## Comando du.
 ## 2.1	Explicación del comando.
 El comando du en Linux se utiliza para estimar y mostrar el uso de espacio en disco de archivos y directorios. Es útil para identificar qué elementos están ocupando más espacio en el sistema.
@@ -94,12 +94,12 @@ El comando du en Linux se utiliza para estimar y mostrar el uso de espacio en di
 -	**du -h**: Muestra los tamaños en un formato legible (KB, MB, GB).
 -	**du -s**: Muestra sólo el tamaño total de la carpeta especificada.
 -	**du -c**: Muestra el tamaño total al final de la salida.
+  
 ## Comando iostat.
 ## 2.1	Explicación del comando.
 El comando iostat (parte del paquete sysstat) proporciona estadísticas sobre el uso del procesador y la actividad de los dispositivos de almacenamiento en sistemas Unix/Linux. Es útil para monitorear el rendimiento del sistema, ayudando a identificar cuellos de botella relacionados con la CPU o el almacenamiento.
 
 **Sintaxis básica**:
-
 iostat [opciones] [intervalo] [conteo]
 
 -	**intervalo**: Tiempo en segundos entre actualizaciones.
