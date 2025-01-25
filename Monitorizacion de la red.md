@@ -1,5 +1,5 @@
 # Monitorización de la red.
-![Red](imagenes/1_tcpdump.PNG)
+![Red](imagenes/monitoreo.png)
 ## Comando tcpdump.
 ## 3.1	Explicación del comando.
 El comando tcpdump es una herramienta esencial en sistemas Unix/Linux para capturar y analizar tráfico de red en tiempo real. Es utilizado por administradores para diagnosticar problemas, monitorear tráfico y detectar actividades sospechosas, examinando los datos que pasan por una interfaz de red.
@@ -15,9 +15,9 @@ tcpdump [opciones] [expresión de filtro]
 -	**-r [archivo]**: Lee paquetes desde un archivo guardado.
 -	**-s [snaplen]**: Especifica el tamaño del paquete a capturar (por defecto 96 bytes, usa 0 para capturar todo el paquete).
 ## 3.3	Capturas de pantalla ejecutando las opciones.
-![Almacenamiento](imagenes/1_tcpdump.PNG)
-![Almacenamiento](imagenes/2_tcpdump.PNG)
-![Almacenamiento](imagenes/3_tcpdump.PNG)
+![Red](imagenes/1_tcpdump.PNG)
+![Red](imagenes/2_tcpdump.PNG)
+![Red](imagenes/3_tcpdump.PNG)
 
 ## 3.4	Comentario del resultado del comando.
 -	**tcpdump -i enp0s3**: Especifica la interfaz de red para capturar tráfico (por defecto selecciona la interfaz activa).
@@ -44,8 +44,8 @@ Además, también presenta los datos de manera visual, facilitando el análisis 
 -	**-v**: Muestra la versión de la herramienta.
 -	**-h**: Muestra la ayuda con una lista de todas las opciones disponibles.
 ## 3.3	Capturas de pantalla ejecutando las opciones.
-![Almacenamiento](imagenes/1_tcptrack.PNG)
-![Almacenamiento](imagenes/2_tcptrack.PNG)
+![Red](imagenes/1_tcptrack.PNG)
+![Red](imagenes/2_tcptrack.PNG)
 
 ## 3.4	Comentario del resultado del comando.
 -	**sudo tcptrack -i enp0s3**: Especifica la interfaz de red, su estado, velocidad, ip del servidor, etc.
@@ -64,9 +64,9 @@ Es una herramienta interactiva de consola para monitorizar el tráfico de red en
 -	__Statistical Breakdown by Port__: Tráfico dividido por puerto.
 -	__Configure...__: Opciones de configuración de la herramienta.
 ## 3.3	 Capturas de pantalla ejecutando las opciones.
-![Almacenamiento](imagenes/1_iptraf-ng.PNG)
-![Almacenamiento](imagenes/2_iptraf-ng.PNG)
-![Almacenamiento](imagenes/3_iptraf-ng.PNG)
+![Red](imagenes/1_iptraf-ng.PNG)
+![Red](imagenes/2_iptraf-ng.PNG)
+![Red](imagenes/3_iptraf-ng.PNG)
 
 ## 3.4	 Comentario del resultado del comando.
 -	iptraf-ng: Esto abrirá un menú interactivo donde podremos elegir las distintas opciones que aparecen.
@@ -84,9 +84,9 @@ Es una herramienta de línea de comandos ampliamente utilizada para supervisar c
 -	**-n**: Evita resolver nombres de host y muestra las direcciones IP directamente.
 -	**-r**: Muestra la tabla de enrutamiento del sistema.
 ## 3.3	 Capturas de pantalla ejecutando las opciones.
-![Almacenamiento](imagenes/1_netstat.PNG)
-![Almacenamiento](imagenes/2_netstat.PNG)
-![Almacenamiento](imagenes/3_netstat.PNG)
+![Red](imagenes/1_netstat.PNG)
+![Red](imagenes/2_netstat.PNG)
+![Red](imagenes/3_netstat.PNG)
 
 ## 3.16	 Comentario del resultado del comando.
 -	**netstat -a**: Muestra los protocolos, direcciones locales y los puertos en escucha.
