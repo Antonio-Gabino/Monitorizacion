@@ -79,4 +79,25 @@ Nos muestra el identificador del proceso en ejecución. El PID 1 está reservado
   Muestra los procesos asociados al usuario especificado.  
 
 - **ps x**:  
-  Muestra los procesos que no están asociados a un terminal.  
+  Muestra los procesos que no están asociados a un terminal.
+
+## Comando top
+## 1.1	Explicación del comando.
+El comando top en Linux es una herramienta interactiva que permite monitorizar el sistema en tiempo real. Proporciona una vista dinámica de los procesos en ejecución y del uso de recursos, como CPU, memoria y procesos activos. Es útil para identificar procesos que consumen muchos recursos y gestionar el rendimiento del sistema.
+Sintaxis básica: top [opciones]
+## 1.2	Opciones comunes del comando.
+El comando top en Linux ofrece varias opciones útiles para monitorear y gestionar los procesos del sistema.
+-	**top -b**: Ejecuta top en modo batch, útil para redirigir la salida a un archivo.
+-	**top -c**: Nos muestra la línea de comando completa de cada proceso en lugar del nombre del comando.
+-	**top -d 5**: Establece un intervalo de actualización de la pantalla cada 5 segundos. Por defecto, es 3 segundos.
+-	*top -n 3**: Nos muestra un número específico de actualizaciones y luego sale.
+-	**top -u antonio**: Nos muestra solo los procesos del usuario especificado.
+-	**top -p 3314**: Muestra solo el proceso con el ID de proceso (PID) especificado. 
+Las opciones y comandos interactivos de top nos permiten personalizar y controlar la visualización de los procesos en tiempo real. Estas herramientas son útiles para adaptar la información mostrada a nuestras necesidades, como ordenar por uso de CPU, memoria o filtrar por usuario. Además, dentro de la interfaz de top, podemos interactuar mediante comandos específicos para gestionar la forma en que se presentan los datos.
+-	**h**: Nos muestra la ayuda.
+-	**k**: Mata un proceso especificando su PID.
+-	**r**: Renombra (cambia la prioridad) de un proceso.
+-	**q**: Sale de top.
+-	**s**: Cambia el intervalo de actualización.
+## 1.3	Capturas de pantalla ejecutando las opciones.
+
