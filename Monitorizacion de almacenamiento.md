@@ -125,3 +125,13 @@ Dispositivos de almacenamiento:
 -	**kB_wrtn/s**: Kilobytes escritos por segundo.
 -	**kB_read y kB_wrtn**: Total de kilobytes leídos y escritos desde que el sistema arrancó.
 ## 2.3	Capturas de pantalla ejecutando las opciones.
+![Almacenamiento](imagenes/1_iostat.PNG)
+![Almacenamiento](imagenes/2_iostat.PNG)
+![Almacenamiento](imagenes/3_iostat.PNG)
+![Almacenamiento](imagenes/4_iostat.PNG)
+
+## 2.4	Comentario del resultado del comando.
+-	**iostat**: Vemos estadísticas generales con porcentaje de cpu, operaciones de transferencia por segundos, kilobytes y total de estos.
+-	**iostat -xd**: Nos muestra estadísticas detalladas de los dispositivos.
+-	**iostat -t**: Nos muestra estadísticas con marcas de tiempo.
+-	**iostat -p /dev/sda**: Nos muestra estadísticas solo para un disco específicado sda.
