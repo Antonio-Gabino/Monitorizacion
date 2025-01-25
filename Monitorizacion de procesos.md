@@ -191,11 +191,21 @@ Las opciones y **comandos interactivos** de top.
 -	**q**: Sale de atop.
 ## 1.15	Capturas de pantalla ejecutando las opciones.
 
-![Procesos](imagenes/1_htop.PNG)
-![Procesos](imagenes/2_htop.PNG)
-![Procesos](imagenes/3_htop.PNG)
-![Procesos](imagenes/4_htop.PNG)
-![Procesos](imagenes/5_htop.PNG)
-![Procesos](imagenes/6_htop.PNG)
-![Procesos](imagenes/7_htop.PNG)
-![Procesos](imagenes/8_htop.PNG)
+![Procesos](imagenes/1_atop.PNG)
+![Procesos](imagenes/2_atop.PNG)
+![Procesos](imagenes/3_atop.PNG)
+![Procesos](imagenes/4_atop.PNG)
+![Procesos](imagenes/5_atop.PNG)
+![Procesos](imagenes/6_atop.PNG)
+![Procesos](imagenes/7_atop.PNG)
+
+## 1.16	Comentario del resultado del comando.
+-	**atop**: Nos muestra datos específicos del intervalo actual de muestreo.
+-	**atop -a**: Muestra la actividad total acumulada desde que los procesos comenzaron, de CPU, memoria, disco y red, estadísticas del sistema como tiempo de actividad, carga promedio, y cantidad total de procesos.
+-	**atop -d**: Muestra porcentaje de tiempo que el disco ha estado ocupado procesando, los que están activos, nombre del comando completo, los que están en estado zombi (terminado), etc.
+-	**atop -m**: Cantidad total de memoria RAM disponible en el sistema, utilizada por el sistema y los procesos, espacio de intercambio total y utilizado.
+-	**atop -u**: Se enfoca específicamente en cómo los procesos y el sistema están utilizando los recursos de procesamiento, mostrando el porcentaje de uso de la CPU.
+  
+Las opciones y **comandos interactivos** de top.
+-	d: Cambia la visualización de los detalles del disco.
+-	m: Cambia la visualización de los detalles de la memoria.
