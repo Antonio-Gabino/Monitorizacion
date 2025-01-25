@@ -29,3 +29,12 @@ Enlace a la página oficial: https://www.nagios.org/
 
 ## Zabbix.
 Es una plataforma de monitoreo de código abierto diseñada para supervisar el desempeño de infraestructuras de TI, como redes, servidores, aplicaciones y servicios. Es una herramienta popular debido a su capacidad para manejar grandes entornos empresariales, escalabilidad y funcionalidades avanzadas.
+
+![Procesos](imagenes/Zabbix.PNG)
+
+Enlace a la página oficial: https://www.zabbix.com/
+
+## Prometheus.
+Es una herramienta de monitoreo y alerta de código abierto orientada a métricas y diseñada para manejar entornos altamente dinámicos, como los sistemas en la nube. Es conocido por su modelo de recopilación basado en pull y su potente lenguaje de consulta, PromQL.
+![Procesos](imagenes/Zabbix.PNG)
+Enlace a la página oficial: https://prometheus.io/
