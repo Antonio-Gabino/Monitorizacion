@@ -16,3 +16,6 @@ Enlaces a la documentación oficial de los siguientes comandos:
 # 5. Otras Herramientas y plataformas de monitorización.
 ## Bandwidthd.
 Es una herramienta de monitorización de ancho de banda que utiliza un enfoque basado en captura de paquetes para generar informes detallados sobre el uso de la red. Está diseñada para administradores de red que necesitan visualizar y analizar el tráfico de una red en términos de uso de ancho de banda por protocolo, IP o incluso subred.
+![Procesos](imagenes/Bandwidth.PNG)
+
+Enlace a la página oficial: https://bandwidthd.sourceforge.net/
