@@ -1,3 +1,4 @@
+![Texto alternativo](Monitorizacion/imagenes/Introduccion.jpg)
 # Introducción
 ## Monitorización por Línea de Comandos
 
