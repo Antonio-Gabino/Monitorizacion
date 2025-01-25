@@ -20,4 +20,4 @@ El comando `ps` en Linux tiene muchas opciones útiles para mostrar información
 
 ## 1.3 Capturas de pantalla ejecutando las opciones  
 ![Procesos](imagenes/1_ps.png)
-![Procesos](imagenes/2_ps a.png)
+![Procesos](imagenes/2_ps.png)
