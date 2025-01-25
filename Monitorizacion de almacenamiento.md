@@ -85,3 +85,43 @@ El comando du en Linux se utiliza para estimar y mostrar el uso de espacio en di
 -	**--time**: Muestra la última fecha de modificación junto con el tamaño.
 ## 2.3	Capturas de pantalla ejecutando las opciones.
 ![Almacenamiento](imagenes/1_du.PNG)
+![Almacenamiento](imagenes/2_du.PNG)
+![Almacenamiento](imagenes/3_du.PNG)
+![Almacenamiento](imagenes/4_du.PNG)
+
+## 2.4	Comentario del resultado del comando.
+-	**du**: Muestra el uso de espacio en disco de archivos y directorios.
+-	**du -h**: Muestra los tamaños en un formato legible (KB, MB, GB).
+-	**du -s**: Muestra sólo el tamaño total de la carpeta especificada.
+-	**du -c**: Muestra el tamaño total al final de la salida.
+## Comando iostat.
+## 2.1	Explicación del comando.
+El comando iostat (parte del paquete sysstat) proporciona estadísticas sobre el uso del procesador y la actividad de los dispositivos de almacenamiento en sistemas Unix/Linux. Es útil para monitorear el rendimiento del sistema, ayudando a identificar cuellos de botella relacionados con la CPU o el almacenamiento.
+
+**Sintaxis básica**:
+
+iostat [opciones] [intervalo] [conteo]
+
+-	**intervalo**: Tiempo en segundos entre actualizaciones.
+-	**conteo**: Número de actualizaciones que se realizarán.
+## 2.2	Opciones comunes del comando.
+-	**iostat**: Muestra estadísticas globales de CPU y dispositivos de almacenamiento.
+-	**iostat -c**: Muestra solo las estadísticas de CPU.
+-	**iostat -d**: Muestra solo las estadísticas de dispositivos de almacenamiento.
+-	**iostat -x**: Proporciona estadísticas detalladas para cada dispositivo.
+-	**iostat -t**: Incluye marcas de tiempo en la salida.
+-	**iostat -p [dispositivo]**: Muestra estadísticas para un dispositivo específico (como /dev/sda).
+
+Descripción de las columnas:
+Uso de la CPU:
+-	__%user__: Porcentaje de CPU utilizado por procesos de usuario.
+-	__%system__: Porcentaje de CPU utilizado por el sistema (kernel).
+-	__%idle__: Porcentaje de CPU inactiva.
+-	__%iowait__: Tiempo que la CPU espera por operaciones de entrada/salida.
+
+Dispositivos de almacenamiento:
+-	**tps**: Operaciones de transferencia por segundo.
+-	**kB_read/s**: Kilobytes leídos por segundo.
+-	**kB_wrtn/s**: Kilobytes escritos por segundo.
+-	**kB_read y kB_wrtn**: Total de kilobytes leídos y escritos desde que el sistema arrancó.
+## 2.3	Capturas de pantalla ejecutando las opciones.
