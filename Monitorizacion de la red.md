@@ -17,7 +17,6 @@ tcpdump [opciones] [expresión de filtro]
 ![Almacenamiento](imagenes/1_tcpdump.PNG)
 ![Almacenamiento](imagenes/2_tcpdump.PNG)
 ![Almacenamiento](imagenes/3_tcpdump.PNG)
-![Almacenamiento](imagenes/4_tcpdump.PNG)
 
 ## 3.4	Comentario del resultado del comando.
 -	**tcpdump -i enp0s3**: Especifica la interfaz de red para capturar tráfico (por defecto selecciona la interfaz activa).
