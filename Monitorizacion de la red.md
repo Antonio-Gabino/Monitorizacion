@@ -1,4 +1,5 @@
 # Monitorización de la red.
+![Red](imagenes/1_tcpdump.PNG)
 ## Comando tcpdump.
 ## 3.1	Explicación del comando.
 El comando tcpdump es una herramienta esencial en sistemas Unix/Linux para capturar y analizar tráfico de red en tiempo real. Es utilizado por administradores para diagnosticar problemas, monitorear tráfico y detectar actividades sospechosas, examinando los datos que pasan por una interfaz de red.
