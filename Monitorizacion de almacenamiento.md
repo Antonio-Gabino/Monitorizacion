@@ -1,5 +1,5 @@
 # Monitorización del almacenamiento.
-![Procesos](imagenes/Imagen_almacenamiento.PNG)
+![Procesos](imagenes/Imagen_almacenamiento.jpeg)
 ## Comando free.
 ## 2.1	Explicación del comando.
 El comando free en sistemas operativos basados en Linux sirve para mostrar información detallada sobre el uso de la memoria del sistema. 
